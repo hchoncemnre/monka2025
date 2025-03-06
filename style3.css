@@ -1,0 +1,40 @@
+
+body{
+    font-family: "Manrope", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #fefcf6; /* Cream */
+   
+
+    /* Everything center */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh; /* Full viewport height */
+    text-align: center; 
+}
+
+
+
+.header {
+    color: #2a3d5e;  
+    font-size: 50px;
+    margin-top: 25px;
+}
+
+.my-button {
+    position: relative;
+    background-color: #2a3d5e; /* Dark Navy #222838 */
+    border: none;
+    color: #F4EFE6;
+    padding: 10px 45px;
+    text-align: center;
+    border-radius: 25px;
+    display: inline-block;
+    font-size: 24px;
+    cursor: pointer;
+    box-shadow: 0 0 40px #f4b251;
+  }
